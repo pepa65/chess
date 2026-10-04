@@ -1,6 +1,6 @@
 [package]
 name = "chess_"
-version = "3.3.1"
+version = "3.3.2"
 edition = "2024"
 rust-version = "1.88.0"
 authors = ["Jordan Bray <jordanbray@gmail.com>", "<github.com/pepa65>"]
@@ -16,7 +16,6 @@ keywords = ["chess", "move", "generator"]
 name = "chess"
 
 [dependencies]
-chess = { package = "chess_", version = "3" }
 arrayvec = "0.7"
 nodrop = "0.1"
 thiserror = "2"
