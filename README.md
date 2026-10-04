@@ -1,13 +1,13 @@
 [![version](https://img.shields.io/crates/v/chess_.svg)](https://crates.io/crates/chess_)
-[![build](https://github.com/pepa65/chess_/actions/workflows/rust.yml/badge.svg)](https://github.com/pepa65/chess_/actions/workflows/rust.yml)
-[![dependencies](https://deps.rs/repo/github/pepa65/chess_/status.svg)](https://deps.rs/repo/github/pepa65/chess_)
+[![build](https://github.com/pepa65/chess/actions/workflows/rust.yml/badge.svg)](https://github.com/pepa65/chess/actions/workflows/rust.yml)
+[![dependencies](https://deps.rs/repo/github/pepa65/chess/status.svg)](https://deps.rs/repo/github/pepa65/chess)
 [![docs](https://img.shields.io/badge/docs-chess_-blue.svg)](https://docs.rs/crate/chess_/latest)
-[![license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/pepa65/chess_/blob/main/LICENSE)
+[![license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/pepa65/chess/blob/main/LICENSE)
 [![downloads](https://img.shields.io/crates/d/chess_.svg)](https://crates.io/crates/chess_)
 
 # chess_ 3.3.1
 **A Fast Chess Library In Rust**
-* Repo: https://github.com/pepa65/chess_
+* Repo: https://github.com/pepa65/chess
 * Fork of unmaintained `chess` crate: https://github.com/jordanbray/chess
 
 This library handles the process of move generation within a chess engine or chess UI.
@@ -18,8 +18,8 @@ This library follows semver for version numbering in the format MAJOR.MINOR.PATC
 * Any added functionality or features that do not break existing applications will involve a MINOR version number change.
 * Any bug fixes or performance improvements that do not affect users will involve a PATCH version change.
 
-## Requires Rust 1.31 or Greater
-This library requires rust version 1.27 or greater in order to check for the BMI2 instruction-set at compile-time.  Additionally, this build is compatible with rust 2018 which, I believe, requires rust 1.31.
+## Requires Rust 1.88.0 or greater
+This library requires rust version 1.88.0 or greater in order to check for the BMI2 instruction-set at compile-time.
 
 > Note: bmi2 has been disabled due to horrible performance on AMD architectures.  I have instead opted to expose the two relevant functions publicly if on a bmi2 CPU.
 
