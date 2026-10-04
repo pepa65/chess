@@ -4,9 +4,20 @@
 [![docs](https://img.shields.io/badge/docs-chess_-blue.svg)](https://docs.rs/crate/chess_/latest)
 [![license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/pepa65/chess/blob/main/LICENSE)
 [![downloads](https://img.shields.io/crates/d/chess_.svg)](https://crates.io/crates/chess_)
-
 # chess_ 3.3.2
 **A Fast Chess Library In Rust**
+
+## Replacement for the chess crate
+**This repo is cloned from github.com/jordanbray/chess in order to modernize it and bring it up to date**
+
+To use this crate instead of the unmaintained `chess`, add this to `Cargo.toml`:
+```
+[dependencies]
+chess = { package = "chess_", version = "3" }
+```
+
+## Digest
+
 * Repo: https://github.com/pepa65/chess
 * Fork of unmaintained `chess` crate: https://github.com/jordanbray/chess
 
