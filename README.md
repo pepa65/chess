@@ -4,7 +4,7 @@
 [![docs](https://img.shields.io/badge/docs-chess_-blue.svg)](https://docs.rs/crate/chess_/latest)
 [![license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/pepa65/chess/blob/main/LICENSE)
 [![downloads](https://img.shields.io/crates/d/chess_.svg)](https://crates.io/crates/chess_)
-# chess_ 3.3.2
+# chess_ 3.3.3
 **A Fast Chess Library In Rust**
 
 ## Replacement for the chess crate
