@@ -1,6 +1,6 @@
 [package]
 name = "chess_"
-version = "3.3.3"
+version = "3.3.4"
 edition = "2024"
 rust-version = "1.88.0"
 authors = ["Jordan Bray <jordanbray@gmail.com>", "<github.com/pepa65>"]
